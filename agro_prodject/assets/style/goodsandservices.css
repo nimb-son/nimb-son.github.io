@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url(../font/SFProDisplay-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Heavy";
+  src: url(../font/SFProDisplay-Heavy.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url(../font/SFProDisplay-Medium.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Black";
+  src: url(../font/SFProDisplay-Black.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url(../font/SFProDisplay-Thin.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 601px){
+
+  .goodsandservices__logomobil {
+    display: none;
+  }
+
+  .goodsandservices__textmobil {
+    display: none;
+  }
+
+  .goodsandservices-cardmobil {
+    display: none;
+  }
+
+
+  .goodsandservices{
+    padding-top: 14vh;
+    background-image: url(../img/fon_tovari.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .goodsandservices__h2 {
+    position: absolute;
+  font-family: "SF Pro Display Black";
+  margin-left: 6vw;
+    font-size: 6vw;
+    color: #4F4F4F;
+    text-transform: uppercase;
+          }
+
+  .goodsandservices__text {
+    font-family: "SF Pro Display Medium";
+    margin-left: 3.3vw;
+    padding-top: 7vh;
+    margin-right: 3.3vw;
+    font-size: 1.2vw;
+    color: #4F4F4F;
+        } 
+      
+      
+  .goodsandservices__logo {
+    position: relative;
+    padding-left: 4.5vw;
+    margin-top: 12vh;
+  }
+
+  .goodsandservices__button {
+    width: 13.3vw;
+                height: 7vh;
+                padding-top: 2vh;
+                margin-left: 7%;
+                background-image: url(../img/knopkafon.png);
+                background-position: center;
+                background-size: 20vw 87.7vh;
+                color: white;
+                border-radius: 30px;
+                font-family: "SF Pro Display Heavy";
+                text-transform: uppercase;
+                font-size: 0.9vw;
+                border-width: 0vw;
+                box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                text-decoration:none;
+  }
+
+  .goodsandservices__h5 {
+    font-family: "SF Pro Display Regular";
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 1.7vw;
+    color: #828282;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+  .goodsandservices-card {
+    display: none;
+  }
+
+
+
+  .goodsandservices-cardmobil__border {
+    border-radius: 30px;
+    border-width: 0px;
+    box-shadow: 2px 2px 40px 4px rgba(161, 163, 159, 0.268);
+  }
+
+  .goodsandservices__h2 {
+    position: absolute;
+  font-family: "SF Pro Display Black";
+    margin-left: 10%;
+    margin-top: 20%;
+    font-weight: 900;
+    font-size: 7.6vw;
+    line-height: 2.4vw;
+    color: #4F4F4F;
+    text-transform: uppercase;
+          }
+
+  .goodsandservices__text {
+    display: none;
+        } 
+
+        .goodsandservices__cardtext {
+          font-family: "SF Pro Display Medium";
+          font-weight: 600;
+          font-size: 5.5vw;
+          line-height: 4vw;
+          color: #828282;
+        }
+
+        .goodsandservices__cardtext2 {
+          font-family: "SF Pro Display Medium";
+          font-weight: 500;
+          font-size: 4vw;
+          line-height: 3vw;
+          color: #BDBDBD;
+        }
+
+        .goodsandservices__textmobil {
+          font-family: "SF Pro Display Medium";
+    margin-left: 2vh;
+    padding-top: 3vh;
+    margin-right: 3.3vw;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 5vw;
+    color: #828282;
+        }
+      
+
+  .goodsandservices__logo {
+  display: none;
+  }
+
+  .goodsandservices__logomobil {
+    position: relative;
+    margin-top: 23%;
+    padding-left: 4.2vw;
+   
+  }
+
+
+
+}

@@ -1,0 +1,432 @@
+
+  
+  @media screen and (min-width: 601px){
+
+
+.mainpage {
+                display: grid;
+                grid-template-areas: "mainpage__container2 mainpage__container4";
+                grid-template-columns: 1fr 1fr;
+                padding-top: 10%;
+              }
+           
+ .mainpage__container2 {
+    display: grid;
+                grid-template-areas: "."
+                "mainpage__container2__h1"
+                "mainpage__container2__h3"
+                "mainpage__container2__p"
+                "mainpage__container2__button"
+                "."
+                "mainpage__container3";
+                grid-template-rows: 1fr 20% 5% 10% 15% 1fr 20%;
+ }
+
+ .mainpage__container2__h1 {
+    grid-area: mainpage__container2__h1;
+    align-self: center;
+    font-family: "SF Pro Display Black";
+    margin-left: 3.3vw;
+    font-size: 7.7vw;
+    color: #48B760;
+    text-transform: uppercase;
+ }
+
+ .mainpage__container2__span {
+    color: #4F4F4F;
+ }
+
+ .mainpage__container2__h3 {
+    grid-area: mainpage__container2__h3;
+    font-family: "SF Pro Display Regular";
+    margin-left: 3.3vw;
+    font-size: 1.2vw;
+    color: #BDBDBD;
+    line-height: 18px;
+ }
+
+ .mainpage__container2__p {
+    grid-area: mainpage__container2__p;
+    font-family: "SF Pro Display Regular";
+    margin-left: 3.3vw;
+    padding-right: 42%;
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: #828282;
+    line-height: 18px;
+ }
+
+ .mainpage__container2__button {
+    grid-area: mainpage__container2__button;
+                width: 13.3vw;
+                height: 7vh;
+                padding-top: 2vh;
+                margin-left: 7%;
+                background-image: url(../img/knopkafon.png);
+                background-position: center;
+                background-size: 20vw 87.7vh;
+                color: white;
+                border-radius: 30px;
+                font-family: "SF Pro Display Heavy";
+                text-transform: uppercase;
+                font-size: 0.9vw;
+                border-width: 0px;
+                box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                text-decoration:none;
+ }
+
+ .mainpage__container2__button:hover {
+    color: white;
+}
+
+ .mainpage__container3 {
+    grid-area: mainpage__container3;
+    display: grid;
+    grid-template-areas: "mainpage__container3__bot mainpage__container3__p";
+    grid-template-columns: 1fr 70%;
+ }
+
+ .mainpage__container3__bot {
+    grid-area: mainpage__container3__bot;
+    margin-left: 3.3vw;
+    align-self: center;
+ }
+
+ .mainpage__container3__p {
+    grid-area: mainpage__container3__p;
+    align-self: center;
+    font-family: "SF Pro Display Regular";
+    padding-right: 15%;
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 18px;
+    color: #BDBDBD;
+
+ }
+
+ .mainpage__container4 {
+    grid-area: mainpage__container4;
+    display: grid;
+    grid-template-areas: "mainpage__container5 mainpage__container6 mainpage__container7 .";
+                grid-template-columns: 1fr 1fr 1fr 32%;
+ }
+
+ .mainpage__container5 {
+    grid-area: mainpage__container5;
+    display: grid;
+    grid-template-areas: "mainpage__container5__svg"
+                        "mainpage__container5__p"
+                         "mainpage__container5__img";
+                grid-template-rows: 50% 5% 1fr;
+                grid-template-columns: 1fr;
+ }
+
+ .mainpage__container5__svg {
+    grid-area: mainpage__container5__svg;
+    display: grid;
+    align-self: flex-end;
+    justify-self: center;
+ }
+
+ .mainpage__container5__p {
+    grid-area: mainpage__container5__p;
+    display: grid;
+    align-items: flex-end;
+    justify-self: center;
+    font-family: "SF Pro Display Medium";
+    color: #828282;
+    font-weight: 500;
+font-size: 1.3vw;
+line-height: 18px;
+ }
+
+ .mainpage__container5__img {
+    grid-area: mainpage__container5__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+
+ .mainpage__container6 {
+    grid-area: mainpage__container6;
+    display: grid;
+    grid-template-areas: "mainpage__container6__svg"
+                        "mainpage__container6__p"
+                         "mainpage__container6__img";
+                grid-template-rows: 25% 5% 1fr;
+                grid-template-columns: 1fr;
+ }
+
+ .mainpage__container6__svg {
+    grid-area: mainpage__container6__svg;
+    display: grid;
+    align-self: flex-end;
+    justify-self: center;
+ }
+
+ .mainpage__container6__p {
+    grid-area: mainpage__container6__p;
+    display: grid;
+    align-items: flex-end;
+    justify-self: center;
+    font-family: "SF Pro Display Medium";
+    color: #828282;
+    font-weight: 500;
+font-size: 1.3vw;
+line-height: 18px;
+ }
+
+ .mainpage__container6__img {
+    grid-area: mainpage__container6__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+ .mainpage__container7 {
+    grid-area: mainpage__container7;
+    display: grid;
+    grid-template-areas: "mainpage__container7__svg"
+                        "mainpage__container7__p"
+                         "mainpage__container7__img";
+                grid-template-rows: 3% 3% 1fr;
+                grid-template-columns: 1fr;
+ }
+
+ .mainpage__container7__svg {
+    grid-area: mainpage__container7__svg;
+    display: grid;
+    align-self: flex-end;
+    justify-self: center;
+ }
+
+ .mainpage__container7__p {
+    grid-area: mainpage__container7__p;
+    display: grid;
+    align-items: flex-end;
+    justify-self: center;
+    font-family: "SF Pro Display Medium";
+    color: #828282;
+    font-weight: 500;
+font-size: 1.3vw;
+line-height: 18px;
+ }
+
+ .mainpage__container7__img {
+    grid-area: mainpage__container7__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+ .mainpage__mobil__button {
+   display: none;
+ }
+
+ .goodsandservices__logomobil
+ {
+   display: none;
+ }      
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+   .mainpage__container2__button {
+      display: none;
+   }
+
+   .mainpage {
+      display: grid;
+      grid-template-areas: "mainpage__container2__h1"
+                           "mainpage__container2__h3 "
+                           "mainpage__container2__p"
+                           "mainpage__container5"
+                           "mainpage__container6"
+                           "mainpage__container7"
+                           "mainpage__mobil__button";
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(7, auto);
+    }
+
+   .mainpage__container2__h1 {
+      grid-area: mainpage__container2__h1;
+      justify-content: center;
+      font-family: "SF Pro Display Black";
+      font-weight: 900;
+      font-size: 70px;
+      line-height: 82px;
+      color: #48B760;
+      text-transform: uppercase;
+      padding-left: 2%;
+      margin-top: 150px;
+   }
+
+   .mainpage__container2__span {
+      color: #4F4F4F;
+   }
+  
+   .mainpage__container2__h3 {
+      grid-area: mainpage__container2__h3;
+      display: grid;
+      justify-self: stretch;
+      font-family: "SF Pro Display Regular";
+      margin-top: 2%;
+      padding-left: 3%;
+      padding-right: 30%;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #BDBDBD;
+   }
+  
+   .mainpage__container2__p {
+      grid-area: mainpage__container2__p;
+      padding-left: 3%;
+      padding-right: 18%;
+      font-family: "SF Pro Display Regular";
+      margin-top: 2%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #828282;
+   }
+
+   .mainpage__container5 {
+      grid-area: mainpage__container5;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container5__svg mainpage__container5__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+                  margin-top: 7%;
+   }
+
+
+   .mainpage__container5__svg {
+      grid-area: mainpage__container5__svg;
+      display: grid;
+      justify-self: end;
+     
+   }
+
+   .mainpage__container5__p {
+      grid-area: mainpage__container5__p;
+      display: grid;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .mainpage__container6 {
+      grid-area: mainpage__container6;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container6__svg mainpage__container6__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+   }
+
+   .mainpage__container6__svg {
+      grid-area: mainpage__container6__svg;
+      display: grid;
+      justify-self: end;
+   }
+  
+   .mainpage__container6__p {
+      grid-area: mainpage__container6__p;
+      display: grid;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+   }
+
+   .mainpage__container7 {
+      grid-area: mainpage__container7;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container7__svg mainpage__container7__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+   }
+
+   .mainpage__container7__svg {
+      grid-area: mainpage__container7__svg;
+      display: grid;
+      justify-self: end;
+   }
+  
+   .mainpage__container7__p {
+      grid-area: mainpage__container7__p;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+   }
+  
+   .mainpage__mobil__button {
+      grid-area: mainpage__mobil__button;
+                  width: 200px;
+                  height: 48px;
+                  margin-top: 8%;
+                  margin-left: 20%;
+  padding-top:14px;
+                  background-image: url(../img/knopkafon.png);
+                  background-position: center;
+                  background-size: 300px 600px;
+                  color: white;
+                  border-radius: 30px;
+                  font-family: "SF Pro Display Heavy";
+                  text-transform: uppercase;
+                  font-weight: 800;
+                  font-size: 14px;
+                  border-width: 0px;
+                  box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                  text-decoration:none;
+   }
+
+   .mainpage__mobil__button:hover {
+      color: white;
+  }
+  
+   .mainpage__container2__button:hover {
+      color: white;
+  }
+
+  .mainpage__container3__bot {
+   display: none;
+}
+
+.mainpage__container3__p {
+   display: none;
+
+}
+
+.mainpage__container5__img {
+   display: none;
+}
+
+.mainpage__container6__img {
+   display: none;
+}
+
+.mainpage__container7__img {
+   display: none;
+}
+
+
+}

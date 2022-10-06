@@ -1,0 +1,114 @@
+@font-face
+    font-family: "SF Pro Display Regular"
+    src: url(../font/SFProDisplay-Regular.ttf)
+    font-style: normal
+    font-weight: normal
+@font-face
+    font-family: "SF Pro Display Bold"
+    src: url(../font/SFProDisplay-Bold.ttf)
+    font-style: normal
+    font-weight: normal
+@font-face
+    font-family: "SF Pro Display Heavy"
+    src: url(../font/SFProDisplay-Heavy.ttf)
+    font-style: normal
+    font-weight: normal
+@font-face
+    font-family: "SF Pro Display Medium"
+    src: url(../font/SFProDisplay-Medium.ttf)
+    font-style: normal
+    font-weight: normal
+@font-face
+    font-family: "SF Pro Display Black"
+    src: url(../font/SFProDisplay-Black.ttf)
+    font-style: normal
+    font-weight: normal
+@font-face
+    font-family: "SF Pro Display Thin"
+    src: url(../font/SFProDisplay-Thin.ttf)
+    font-style: normal
+    font-weight: normal
+
+
+@media screen and (min-width: 1024px)
+    $font-color:#4F4F4F
+    $form-border-radius:100px
+    $form-background:#F2F2F2
+    $form-background-border:0px
+    $form-padding-left:30px
+    .connection
+        padding-bottom: 120px
+        background-image: url("../assets/connection/images/fon.png")
+        &__h1
+            padding-left: 90px
+            padding-top: 120px
+            font-size: 96px
+            font-family: "SF Pro Display Black"
+            color:$font-color
+        &__icon
+            padding-left: 50px
+    
+        &__button
+            margin-left: 50px
+            margin-top:20px
+            width: 200px
+            height: 48px
+            background: linear-gradient(to right, #48B760, #6BB748)
+            font-family: "SF Pro Display Heavy"
+            font-size:14px
+            color: white
+            border-radius: 30px
+            border-width:0px
+            box-shadow: 0px 20px 20px 0px rgba(115,205,0,0.3)
+
+        &__container
+            margin-left: 50px
+            margin-right: 50px
+            margin-top:30px
+            display: grid
+            grid-template-columns: 1fr 1fr
+            grid-template-rows: 68px 68px 68px 188px
+            row-gap:20px
+            column-gap:50px
+            font-size: 20px
+        &__form1
+            padding-left: $form-padding-left
+            border-radius: $form-border-radius
+            background: $form-background
+            border-width: $form-background-border
+        &__form2
+            padding-left: $form-padding-left
+            border-radius: $form-border-radius
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+        &__form3
+            padding-left: $form-padding-left
+            border-radius: $form-border-radius
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+        &__form4
+            padding-left: $form-padding-left
+            border-radius: 40px
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+            
+        &__formimage
+            width: 784px
+            grid-column: 2/3
+            grid-row:1/5
+
+        &__image
+            float: right
+            padding-right: 50px
+            padding-top: 40px
+            padding-bottom:40px
+@media screen and (max-width:600px) 
+    .connection
+        &__h1
+            display: none
+
+
+

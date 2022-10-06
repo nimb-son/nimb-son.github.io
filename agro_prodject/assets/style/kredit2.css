@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url(../font/SFProDisplay-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Bold";
+    src: url(../font/SFProDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Heavy";
+    src: url(../font/SFProDisplay-Heavy.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Medium";
+    src: url(../font/SFProDisplay-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Black";
+    src: url(../font/SFProDisplay-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Thin";
+    src: url(../font/SFProDisplay-Thin.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SFProDisplayBold";
+    src: url(/fonts/sfpro/SFProDisplay-Bold.woff2);
+    font-style: normal;
+    font-weight: normal;
+  }
+.kredit2 {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-image: url("../img/fon1.png");
+  color: #4F4F4F;
+}
+.kredit2__header {
+  height: 100px;
+}
+.kredit2__h1 {
+  margin-left: 90px;
+  display: inline;
+  font-family: "SF Pro Display Heavy";
+  font-size: 96px;
+  color: #4F4F4F;
+}
+.kredit2__icon {
+  margin-left: 50px;
+}
+.kredit2__smalltext {
+  font-family: "SF Pro Display Regular";
+  margin-left: 125px;
+  font-weight: bold;
+  color: #4F4F4F;
+}
+.kredit2__h3 {
+  font-family: "SF Pro Display Bold";
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.kredit2__container1 {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px 1fr;
+  grid-template-rows: repeat(2, 70px);
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+}
+.kredit2__container1 p {
+  font-family: "SF Pro Display Bold";
+  font-size: 14px;
+  line-height: 20px;
+}
+.kredit2__container1 img {
+  padding-top: 20px;
+}
+.kredit2__container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 27%);
+  grid-template-rows: repeat(3, 50px);
+  padding-left: 90px;
+  font-family: "SF Pro Display Medium";
+}
+.kredit2__container2h3 {
+  font-family: "SF Pro Display Bold";
+  padding-left: 90px;
+  padding-top: 40px;
+}
+.kredit2__container2item2 {
+  font-family: "SF Pro Display Bold";
+}
+.kredit2__container2item4 {
+  font-family: "SF Pro Display Bold";
+}
+.kredit2__container2item6 {
+  font-family: "SF Pro Display Bold";
+}
+.kredit2__container3item2 {
+  font-family: "SF Pro Display Bold";
+}
+.kredit2__container3item4 {
+  font-family: "SF Pro Display Bold";
+}
+.kredit2__container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  grid-template-rows: repeat(3, 70px);
+  padding-left: 90px;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+  font-family: "SF Pro Display Medium";
+}
+.kredit2__container3h3 {
+  font-family: "SF Pro Display Bold";
+  padding-left: 90px;
+  padding-top: 40px;
+}
+.kredit2__smalltext1 {
+  padding-left: 70px;
+  font-family: "SF Pro Display Medium";
+  color: #BDBDBD;
+}
+.cont{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 40px;
+  row-gap: 40px;
+}
+.kredit2__button {
+  margin-left: 44%;
+  padding-top:14px;
+  width:200px;
+  height: 32px;
+  background-image: url(../img/knopkafon.png);
+  background-position: center;
+  background-size: 300px 600px;
+  color: white;
+  border-radius: 30px;
+  font-family: "SF Pro Display Heavy";
+  text-align: center;
+  font-size: 14px;
+  border-width: 0px;
+  box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+  text-decoration: none;
+}
+
+.kredit2__button:hover{
+  color:white;
+}/*# sourceMappingURL=kredit2.css.map */

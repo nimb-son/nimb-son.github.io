@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 601px){
+header .big_menu{
+  position: fixed;
+  display: grid;
+  grid-template-columns: 20% repeat(6, 10%) 20%;
+  width: 100%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.821);
+  z-index: 1;
+}
+header .mobil_menu{
+  display: none;
+}
+header .big_menu a {
+  text-decoration: none;
+  font-weight: 400;
+  height: 20%;
+  color: rgb(130, 130, 130);
+  text-align: center;
+}
+header .big_menu a:hover{
+  color: rgba(79, 79, 79, 1);
+  font-weight: 500;
+  height: 32px;
+  background-image: url(../img/Ellipse_menu.svg);
+  background-repeat: no-repeat;
+  background-position: right 50% bottom 5%;
+  text-align: center;
+  padding: 5px;
+}
+
+
+header .big_menu div, header .big_menu a{ 
+  justify-self: center;
+  align-self: center;
+}
+
+}
+@media screen and (max-width: 600px) {
+
+header .big_menu{
+  display: none;
+}
+header .mobil_menu {
+  width: 100vw;
+  padding: 14px;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #4F4F4F;
+  background-color: rgba(255, 255, 255);
+  z-index: 1;
+}
+header .mobil_menu .open_menu {
+  justify-self: end; 
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #4F4F4F;
+  margin-right: 12vw;
+  margin-top: 2vh;
+}
+header .mobil_menu ul {
+  display: none;
+  position: absolute; 
+  text-decoration: none;
+  color: #4F4F4F;
+  background-color: rgba(255, 255, 255);
+}
+header .mobil_menu .open_menu:hover ul {
+  display: block;
+  color: #4F4F4F;
+  text-decoration: none;
+}
+header .mobil_menu .open_menu a {
+  color: #4F4F4F;
+  text-decoration: none;
+}
+header .mobil_menu ul li {
+  padding: 1vh;
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  list-style-type: none;
+  
+}
+header .mobil_menu ul li a{
+  color: rgb(130, 130, 130);
+}
+header .mobil_menu ul li a:hover {
+  color:rgba(79, 79, 79, 1);;
+}
+header .mobil_menu .open_menu .union {
+  margin-left: 2vw;
+}
+
+}
