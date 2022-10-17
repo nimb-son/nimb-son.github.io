@@ -1,0 +1,92 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 40vw 1fr;
+    grid-template-rows: 12vh 60vh 30%;
+    background-color: rgb(249, 215, 243);
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.buttonPreviousFrog {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-content: center;
+}
+.buttonPreviousFrog button {
+    background-color: rgb(100, 206, 139);
+    font-size: large;
+    height: 8vh;
+    width: 15vw;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+.buttonNextFrog {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    align-content: center;
+}
+.buttonNextFrog button {
+    background-color: rgb(100, 206, 139);
+    font-size: large;
+    height: 8vh;
+    width: 15vw;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+.imgBlock {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+}
+
+#imageFrog {
+    max-height: 70vh;
+    max-width: 50vw;
+}
+
+footer {
+    background-color: rgb(100, 206, 139);
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin-top: 8%;
+    padding: 2%;
+    color: white;
+    align-items: center;
+    justify-items: end;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
