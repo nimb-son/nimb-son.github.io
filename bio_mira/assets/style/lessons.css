@@ -1,0 +1,363 @@
+@media screen and (min-width: 601px) {
+    .lessons {
+        padding-top: 10vh;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .lessons__h2 {
+        width: 40vw;
+        margin-left: 30vw;
+        margin-bottom: 0;
+        padding-top: 1vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 4.17vw;
+        color: white;
+        text-align: center;
+        background-color: #2FC97F;
+        border-radius: 50px;
+        color: white;
+
+    }
+
+    .lessons_img {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url(../images/lessons/lessons_fon.png);
+        background-repeat: no-repeat;
+        background-size: 82%;
+        background-position-x: 90%;
+        background-position-y: 45%;
+
+    }
+
+    .lessons_img img {
+        display: grid;
+        align-items: flex-start;
+        width: 55vw;
+        height: 62vh;
+        padding: 7%;
+        margin-left: 8%;
+
+    }
+
+    .lessons_text {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-decoration: none;
+        margin-top: 7%;
+        margin-left: 5vw;
+    }
+
+    .lessons_text ul {
+        display: grid;
+        list-style-type: none;
+        justify-content: start;
+        align-content: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 2.4vw;
+        text-align: center;
+    }
+
+    .lessons_text ul li {
+        margin-top: 5%;
+        padding-right: 15%;
+    }
+
+
+
+
+
+
+
+
+
+    .lessons2 {
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 2vw;
+        text-align: center;
+
+    }
+
+
+    .video {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 55%;
+    }
+
+.video__container{
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 100%;
+    align-items: center;
+}
+
+    #video {
+        width: 450px;
+        height: 300px;
+    }
+
+
+    .videobutton__left img,
+    .videobutton__right img {
+        width: 20%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .videobutton__left img:hover, .videobutton__right img:hover {
+        width: 24%;
+
+    }
+
+    .lessons2 h2 {
+        font-weight: 600;
+    }
+
+    .video__div {
+        width: 100%;
+    }
+
+    .video__video {
+        width: 40%;
+
+    }
+
+    .conspect_img {
+        width: 90%;
+    }
+
+    .teoria {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        background-image: url('../images/lessons/conspect_fon.png');
+        background-size: 107%;
+        background-repeat: no-repeat;
+        background-position-y: 0%;
+        background-position-x: -20%;
+    }
+
+    .teoria__container {
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+        grid-template-rows: 100%;
+
+    }
+
+    .button_left img,
+    .button_right img {
+        width: 40%;
+    }
+
+    .button_left img:hover,
+    .button_right img:hover {
+        width: 45%;
+    }
+
+    .button_left,
+    .button_right {
+        display: grid;
+        align-items: center;
+    }
+
+    .button_left {
+        padding-left: 30%;
+    }
+
+    .button_right {
+        padding-right: 30%;
+    }
+
+    .teoria__mobil {
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .lessons_img {
+        display: none;
+    }
+
+    .teoria {
+        display: none;
+    }
+
+    .teoria__container__mobil {
+        align-self: flex-start;
+    }
+
+    .teoria__mobil h2,
+    .lessons2 h2 {
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .carousel-indicators {
+        margin-top: 20vh;
+    }
+
+    .teoria__mobil {
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 50%;
+        row-gap: 4vh;
+        background-image: url('../images/lessons/conspect_fon.png');
+        background-size: 125%;
+        background-repeat: no-repeat;
+        background-position-y: 10%;
+        background-position-x: 32%;
+    }
+
+    .teoria__container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .teoria h2 {
+        text-align: center;
+
+        padding-right: 5vw;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: #2FC97F;
+        border-radius: 70%;
+    }
+
+    .carousel-control-next-icon {
+        background-color: #2FC97F;
+        border-radius: 70%;
+    }
+
+    .conspect_img {
+        width: 70%;
+        margin-left: 14vw;
+    }
+
+    .button_left,
+    .button_right {
+        display: none;
+    }
+
+    .video {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 60%;
+        row-gap: 1vh;
+        justify-content: center;
+        justify-self: center;
+
+    }
+
+    .video h2 {
+        text-align: center;
+
+    }
+
+    #video {
+        width: 100%;
+        height:100%;
+    }
+
+    .video__container{
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 100%;
+        column-gap: 2vw;
+        align-items: center;
+    }
+    
+
+    .videobutton__right{
+      margin-left: 50%;
+
+    }
+
+    .videobutton__left img
+     {
+        width: 60%;
+        
+    }
+    .videobutton__right img{
+        width:120%;
+    }
+
+    .lessons__ul {
+        padding-top: 5vh;
+        display: grid;
+        padding-left: 0px;
+        grid-template-columns: 90vw;
+        grid-template-rows: repeat(4, 8vh);
+        list-style-type: none;
+        align-content: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 5.5vw;
+        text-align: center;
+    }
+
+    .lessons_text {
+        display: grid;
+        text-decoration: none;
+
+    }
+
+    .lessons__h2 {
+        width: 75vw;
+        height: 6vh;
+        margin-left: 12vw;
+        margin-bottom: 0.5vh;
+        margin-top: 8vh;
+        padding-top: 1vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 7vw;
+        text-align: center;
+        background-color: #2FC97F;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+
+    .mob__container {
+        display: grid;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        grid-template-columns: 90vw;
+        grid-template-rows: 110vh 35vh;
+    }
+
+    .lessons2 {
+        grid-row: 1/2;
+        display: grid;
+        grid-template-rows: 45% 70%;
+        grid-template-columns: 100%;
+    }
+
+    .lessons {
+        grid-row: 2/3;
+    }
+}

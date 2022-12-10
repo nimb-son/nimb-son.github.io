@@ -1,0 +1,263 @@
+@media screen and (min-width: 601px) {
+  .mainpage {
+    width: 89vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 40vw 55vw;
+    grid-template-rows: 50vh 30vh;
+    margin: 0;
+  }
+
+  .mainpage__text {
+    padding-top: 20vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.73vw;
+    text-align: center;
+  }
+
+  .mainpage__text span {
+    font-weight: 800;
+  }
+
+  .mainpage__button {
+    padding-top: 1vh;
+    width: 80%;
+    height: 35%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 2.27vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: #2FC97F;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-left: 4vw;
+
+  }
+
+  .mainpage__button:hover {
+    font-size: 2.35vw;
+    color: white;
+  }
+
+  .mainpage__photodiv {
+    margin: 0;
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/5;
+    background-image: url("../images/mainpage/circles.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+  }
+
+  .mainpage__photo {
+    align-self: flex-end;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .mainpage__photodiv,
+  .mainpage__photo {
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: appearance;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .mainpage__photodiv,
+  .mainpage__photo {
+    animation-delay: 0s;
+  }
+
+  #telegram {
+    position: fixed;
+    z-index: 2;
+    margin-top: 65vh;
+    right: 7vw;
+  }
+
+  .telegram {
+    width: 10vw;
+    height: 10vh;
+  }
+
+  #whatsapp {
+    position: fixed;
+    z-index: 2;
+    margin-top: 65vh;
+    right: 1vw;
+    cursor: pointer;
+  }
+
+  .whatsapp {
+    width: 10vw;
+    height: 10vh;
+
+  }
+
+  .stendup {
+    position: fixed;
+    cursor: pointer;
+    bottom: 7vh;
+    left: 2vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 12vh;
+  }
+
+  .stendup::before {
+    content: "";
+    cursor: pointer;
+    width: 12vw;
+    height: 12vh;
+    margin-left: 5vw;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url('../images/whoiam/stendup.svg');
+  }
+
+  .stendup_2 {
+    display: none;
+  }
+
+  .mainpage__photo {
+    animation-delay: 1s;
+  }
+
+  @keyframes appearance {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .telegram {
+    display: none;
+  }
+
+
+  .whatsapp {
+    display: none;
+  }
+
+
+  .stendup {
+    display: none;
+  }
+
+
+  .mainpage {
+    width: 100vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 95vw;
+    grid-template-rows: 11vh 50vh 10vh;
+    margin: 0;
+  }
+
+  .mainpage__text {
+
+    grid-row: 1/2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 7vw;
+    text-align: left;
+  }
+
+  .mainpage__text span {
+    font-weight: 800;
+  }
+
+  .mainpage__button {
+    display: grid;
+    align-self: flex-end;
+    padding-top: 2vh;
+    width: 90vw;
+    height: 80%;
+    grid-row: 3/4;
+    font-size: 6.4vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2FC97F;
+    border: none;
+    border-radius: 50px;
+    color: white;
+
+
+  }
+
+  .mainpage__button:active {
+    font-size: 27px;
+    color: white;
+  }
+
+  .mainpage__photodiv {
+    display: grid;
+    margin: 0;
+    position: relative;
+    grid-row: 2/3;
+    background-image: url("../images/mainpage/circles.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+  }
+
+  .mainpage__photo {
+    align-self: flex-end;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .mainpage__photodiv,
+  .mainpage__photo {
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: appearance;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .mainpage__photodiv,
+  .mainpage__photo {
+    animation-delay: 0s;
+  }
+
+  .mainpage__photo {
+    animation-delay: 1s;
+  }
+
+  @keyframes appearance {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
